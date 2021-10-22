@@ -2,6 +2,7 @@ pipeline {
     agent any
     tools{
         maven 'mvn-3.8.3'
+    }
     stages {
         stage('Hello') {
             steps {

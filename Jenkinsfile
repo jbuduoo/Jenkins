@@ -4,7 +4,10 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo '這是git嗎?'
+                echo '我快瘋了'
+                echo '誰來救救我'
+
             }
         }
     }

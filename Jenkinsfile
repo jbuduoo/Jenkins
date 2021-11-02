@@ -9,21 +9,6 @@ pipeline {
                 echo 'Hello master'
             }
         }
-        stage('TEST2') {
-            steps {
-                 echo 'Hello TEST2'
-            }
-        }
-        stage('TEST3') {
-            steps {
-                 echo 'Hello TEST3'
-            }
-        }
-        stage('TEST4') {
-            steps {
-                 echo 'Hello TEST4'
-            }
-        }
         stage('TEST5') {
             agent{
     	    	label 'linux172'
